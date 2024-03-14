@@ -2,9 +2,14 @@
 
 > The Deals App demonstrates a React Native-powered mobile app for managing and selling deals.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/256px-React-icon.svg.png)
-
-![java logo](screenshots/app-1.jpg)
+![Splash Screen](screenshots/app-1.jpg)
+![Login Screen](screenshots/app-2.jpg)
+![SignUp Screen](screenshots/app-3.jpg)
+![Homepage Screen](screenshots/app-4.jpg)
+![Deal Category Screen](screenshots/app-5.jpg)
+![Deal Screen](screenshots/app-6.jpg)
+![Deals Screen](screenshots/app-7.jpg)
+![Favorites Screen](screenshots/app-8.jpg)
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 

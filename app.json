@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "THIADeals",
+    "slug": "THIADeals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f49e0b"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAWRYOIYvY96E375NjR2QgC95dxXOsJmC0"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thia.technologies.THIADeals",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAWRYOIYvY96E375NjR2QgC95dxXOsJmC0"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router", "sentry-expo"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "95e18adb-68bc-4345-8dad-820a0a4b0cad"
+      }
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "thia-deals-xd",
+            "project": "thia-deals-expo",
+            "authToken": "e6bb583c269d9926adcd494e4a6318fc16077683c8976efe42b7a255b23cca06"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+src/assets/
+src/helpers/
+.prettierrc
+.eslintrc.js
+app.d.ts
